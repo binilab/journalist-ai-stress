@@ -30,3 +30,8 @@ env/
 
 # archive files
 *.zip
+
+# Raw/source data accidentally exported to outputs
+outputs/tables/*로데이터*
+outputs/tables/*원본*
+*원본_데이터*.csv

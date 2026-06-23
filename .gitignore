@@ -1,0 +1,32 @@
+# 원본 데이터: 재단 자료이므로 GitHub 업로드 금지
+data/raw/*
+!data/raw/.gitkeep
+
+# 개인정보/원자료에 가까운 가공 row-level 데이터는 기본 제외
+data/processed/*
+!data/processed/.gitkeep
+
+# SAV 원본 데이터
+*.sav
+*.SAV
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# local config
+.env
+
+# archive files
+*.zip
